@@ -7,4 +7,4 @@ function addElementToBeginningOfArray(array, element) {
   return array;
 }
 
-addElementToBeginningOfArray(chocolateBars, "foo");
+console.log(addElementToBeginningOfArray(chocolateBars, "foo"));
