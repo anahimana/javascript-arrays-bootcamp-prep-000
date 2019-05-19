@@ -9,9 +9,9 @@ function addElementToBeginningOfArray(array, element) {
 
 console.log(addElementToBeginningOfArray(chocolateBars, "foo"));
 
-function addElementToBeginningOfArray(array, element) {
+function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element);
   return array;
 }
 
-console.log(addElementToBeginningOfArray(chocolateBars, "foo"));
+console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, "yoyo"));
