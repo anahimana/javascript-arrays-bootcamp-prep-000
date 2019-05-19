@@ -59,7 +59,7 @@ function destructivelyRemoveElementFromEndOfArray(array) {
   
 }
 
-console.log(destructivelyRemoveElementFromEndOfArray(chocolateBars));
+// console.log(destructivelyRemoveElementFromEndOfArray(chocolateBars));
 
 
 function removeElementFromEndOfArray(array) {
