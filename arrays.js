@@ -36,10 +36,10 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array;
 }
 
-console.log(destructivelyRemoveElementFromBeginningOfArray(chocolateBars));
+// console.log(destructivelyRemoveElementFromBeginningOfArray(chocolateBars));
 
-function destructivelyRemoveElementFromBeginningOfArray(array) {
-  array.shift();
+function removeElementFromBeginningOfArray(array) {
+  array = array.slice(1);
   return array;
 }
 
