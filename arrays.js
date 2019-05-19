@@ -62,12 +62,12 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 console.log(destructivelyRemoveElementFromEndOfArray(chocolateBars));
 
 
-function destructivelyRemoveElementFromEndOfArray(array) {
-  array.pop();
+function removeElementFromEndOfArray(array) {
+  array.slice(0, array.length - 1);
   return array;
   
 }
 
-console.log(destructivelyRemoveElementFromEndOfArray(chocolateBars));
+console.log(removeElementFromEndOfArray(chocolateBars));
 
 
