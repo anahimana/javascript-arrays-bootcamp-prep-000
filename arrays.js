@@ -7,10 +7,10 @@ function addElementToBeginningOfArray(array, element) {
   return array;
 }
 
-console.log(addElementToBeginningOfArray(chocolateBars, "foo"));
+// console.log(addElementToBeginningOfArray(chocolateBars, "foo"));
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  array.unshift(element);
+  array[0] = element;
   return array;
 }
 
