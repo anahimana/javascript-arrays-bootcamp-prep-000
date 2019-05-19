@@ -10,7 +10,7 @@ function addElementToBeginningOfArray(array, element) {
 console.log(addElementToBeginningOfArray(chocolateBars, "foo"));
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  array[0] = element;
+  array.unshift(element);
   return array;
 }
 
