@@ -43,4 +43,13 @@ function removeElementFromBeginningOfArray(array) {
   return array;
 }
 
-console.log(destructivelyRemoveElementFromBeginningOfArray(chocolateBars));
+// console.log(destructivelyRemoveElementFromBeginningOfArray(chocolateBars));
+
+function destructivelyRemoveElementFromEndOfArray(array) {
+  array.pop();
+  return array;
+  
+}
+
+console.log(destructivelyRemoveElementFromEndOfArray(chocolateBars));
+
