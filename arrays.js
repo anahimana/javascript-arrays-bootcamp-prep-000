@@ -7,3 +7,5 @@ function addElementToBeginningOfArray(array, element) {
   array.unshift(element);
   console.log(array);
 }
+
+addElementToBeginningOfArray(array, "bar");
