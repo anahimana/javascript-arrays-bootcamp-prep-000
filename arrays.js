@@ -8,4 +8,4 @@ function addElementToBeginningOfArray(array, element) {
   console.log(array);
 }
 
-addElementToBeginningOfArray(array, "bar");
+addElementToBeginningOfArray(array, "1");
