@@ -61,13 +61,13 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 
 // console.log(destructivelyRemoveElementFromEndOfArray(chocolateBars));
 
-
+let myArray = [1, 2, 3];
 function removeElementFromEndOfArray(array) {
   array.slice(0, array.length - 1);
   return array;
   
 }
 
-console.log(removeElementFromEndOfArray(chocolateBars));
+console.log(removeElementFromEndOfArray(myArray));
 
 
